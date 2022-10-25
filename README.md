@@ -6,7 +6,7 @@
 3. [Portfolio Webpage](#portfolio-webpage)
 
 ## Project Description
-To build a portfolio page, which shows your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. 
+To build a portfolio page, which shows your skills and talents to employers who are looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. 
 
 ## Acceptance Criteria
 * WHEN I load their portfolio. THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
