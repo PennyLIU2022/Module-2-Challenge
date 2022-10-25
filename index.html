@@ -4,25 +4,25 @@
 <head>
     <meta charset="UFT-8">
     <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <tile>Liqiong Liu's Portfolio</tile>
+    <link rel="stylesheet" href="./style.css">
+    <title>Liqiong Liu's Portfolio</title>
 </head>
 
 <body>
 
     <!--Header and navigation bar-->
     <header>
-        <h1>Liqiong Liu</h1>
+        <div><h1>Liqiong Liu</h1></div>
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me">Abour Me</a>
+                    <a href="#AboutMe">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#Work">Work</a>
                 </li>
                 <li>
-                    <a href="#contact-me">Contact Me</a>
+                    <a href="#ContactMe">Contact Me</a>
                 </li>
                 <li>
                     <a href="./assets/Resume-Liqiong Liu.pdf" target="_blank">My Resume</a>
@@ -32,9 +32,9 @@
     </header>
 
     <!--Top Image Section-->
-    <section>
+    <section class="Image">
         <div>
-            <img src="./assets/Liqiong_Liu.PNG" alt="photo of Liqiong Liu">
+            <img src="./assets/Liqiong_Liu.jpg" alt="photo of Liqiong Liu">
         </div>
 
         <div>
@@ -45,8 +45,8 @@
     </section>
 
     <!--About Me Section-->
-    <section>
-        <div>
+    <section id="AboutMe" class="AboutMe">
+        <div class="title">
             <h2>About Me</h2>
         </div>
 
@@ -60,30 +60,33 @@
     </section>
 
     <!--Work Section-->
-    <section>
-        <div>
+    <section id="Work" class="Work">
+        <div class="title">
             <h2>Work</h2>
         </div>
 
-        <div>
-            <div>
-                <a href="https://github.com/PennyLIU2022/Module-1-Challenge" target="_blank">
-                    <div>
-                        <h3>Horiseon Webpage</h3>
+        <div class="ProjectWrapper">
+            <div class="ProjectGrid">
+                <a href="https://github.com/PennyLIU2022/Module-1-Challenge" target="_blank" class="Project Horiseon">
+                    <div class="ProjectLabel">
+                        <h4>Horiseon Webpage</h4>
                         <p>HTML/CSS</p>
                     </div>
                 </a>
 
-                <a href="https://github.com/PennyLIU2022/prework-study-guide" target="_blank">
-                    <div>
-                        <h3>Study Guide</h3>
+                <a href="https://github.com/PennyLIU2022/prework-study-guide" target="_blank" class="Project Guide">
+                    <div class="ProjectLabel">
+                        <h4>Study Guide</h4>
                         <p>Advanced CSS</p>
                     </div>
                 </a>
 
-                <a href="https://github.com/PennyLIU2022/first-day-repo" target="_blank">
-                    <div>Repository</div>
-                    <p>Github</p>
+                <a href="https://github.com/PennyLIU2022/first-day-repo" target="_blank" class="Project Repository">
+                    <div class="ProjectLabel">
+                        <h4>Repository</h4>
+                        <p>Github</p>
+                    </div>
+                    
                 </a>
                 
             </div>
@@ -93,29 +96,27 @@
 
 
     <!--Contact Me Section-->
-    <section>
-        <div>
+    <section id="ContactMe" class="ContactMe">
+        <div class="title">
             <h2>Contact Me</h2>
         </div>
 
-        <div>
-            <ul>
-                <li>
-                    <p>(123)456-7890</p>
-                </li>
-                <li>
-                    <a href="mailto:pennyliu806@gmail.com" target="_blank">Email</a>
-                </li>
-                <li>
-                    <a href="https://github.com/PennyLIU2022" target="_blank">Github</a>
-                </li>
-            </ul>
+        <div class="content">
+            <div id="contactlist">
+                <ul>
+                    <li>
+                        <a href="mailto:pennyliu806@gmail.com" target="_blank">Email</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/PennyLIU2022" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/liqiong-liu-317b99179/" target="_blank">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
-
-    <footer>
-        © 2022 Liqiong Liu
-    </footer>
 
 
 </body>
