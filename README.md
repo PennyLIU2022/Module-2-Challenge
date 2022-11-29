@@ -17,4 +17,4 @@ To build a portfolio page, which shows your skills and talents to employers who 
 * WHEN I resize the page or view the site on various screens and devices. THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Portfolio Webpage
-![The following image is the screenshot of the webpage](./assets/Module-2-Challenge.png)
+![The following image is the screenshot of the webpage](./assets/Module-2-Challenge_updated.png)
