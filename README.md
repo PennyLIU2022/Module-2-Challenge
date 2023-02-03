@@ -18,4 +18,4 @@ To build a portfolio page, which shows your skills and talents to employers who 
 
 ## Portfolio Webpage
 https://pennyliu2022.github.io/Portfolio/
-![The following image is the screenshot of the webpage](./assets/Module-2-Challenge_updated.png)
+![The following image is the screenshot of the webpage](./assets/Module-2-Challenge%20(2).png)

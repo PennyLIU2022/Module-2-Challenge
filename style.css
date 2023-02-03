@@ -123,7 +123,7 @@ header nav ul li {
     align-items: flex-end;
     text-decoration: none;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     opacity: 0.55;
 }
 
@@ -138,12 +138,13 @@ header nav ul li {
 }
 
 .Guide {
-    background-image: url(./assets/Guide.jpg);
+    background-image: url(./assets/Project-2.png);
     background-position: 50% 30%;
+    height: 250px;
 }
 
 .Repository {
-    background-image: url(./assets/Repository.jpg);
+    background-image: url(./assets/Project-1.png);
     background-position: 60% 50%;
 }
 
